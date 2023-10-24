@@ -6,7 +6,7 @@ import { ChromePicker } from "react-color";
 
 interface pageProps {}
 
-const page: FC<pageProps> = ({}) => {
+const Homepage: FC<pageProps> = ({}) => {
   const [color, setColor] = useState<string>("#000");
   const { canvasRef, onMouseDown, clear } = useDraw(drawLine);
 
@@ -52,4 +52,4 @@ const page: FC<pageProps> = ({}) => {
   );
 };
 
-export default page;
+export default Homepage;
